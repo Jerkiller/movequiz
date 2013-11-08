@@ -1,4 +1,7 @@
-﻿using System;
+﻿using Microsoft.Devices.Sensors;
+using Microsoft.Phone.Applications.Common;
+using Microsoft.Phone.Controls;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -9,8 +12,6 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
-using Microsoft.Phone.Controls;
-using Microsoft.Devices.Sensors;
 using System.Windows.Threading;
 
 
@@ -18,7 +19,7 @@ namespace AccelerometerWP7
 {
     public partial class MainPage : PhoneApplicationPage
     {
-        Accelerometer accel = new Accelerometer();
+        #region Campi della classe
         DispatcherTimer timer;
         protected double CursorCenter;
         protected double accelY = 0;
@@ -36,6 +37,7 @@ namespace AccelerometerWP7
         protected bool est=false;
         protected bool ovest=false;
         protected bool riposo=false;
+        #endregion
 
         // Constructor
         public MainPage()
@@ -44,14 +46,22 @@ namespace AccelerometerWP7
 
 
             timer = new DispatcherTimer();
+            // Intervallo ottimo perché l'occhio umano veda qualcosa di fluido
             timer.Interval = TimeSpan.FromMilliseconds(40);
             timer.Tick += new EventHandler(timer_Tick);
 
-            accel.ReadingChanged += new EventHandler<AccelerometerReadingEventArgs>(AccelerometerReadingChanged);
-            accel.Start();
+            // Creo un'istanza di AccelerometerHelper con singleton
+            AccelerometerHelper.Instance.ReadingChanged += new EventHandler<AccelerometerHelperReadingEventArgs>(OnAccelerometerHelperReadingChanged);
+            AccelerometerHelper.Instance.Active = true;
+
             timer.Start();
-          
         }
+
+        
+
+        /// <summary>
+        /// Ogni tick del timer vado ad invocare i metodi in caso di movimento verso nord, est, sud, ovest...
+        /// </summary>
         void timer_Tick(object sender, EventArgs e)
         {
             CursorCenter = Cursor.Width / 2;
@@ -62,13 +72,13 @@ namespace AccelerometerWP7
                 accelX = -timerX ;
                 accelY = timerY;
 
-                if ((timerY < -0.5)&&(!sud))
+                if ((timerY < -0.45)&&(!sud))
                 {
                     sud = true;
                     est = false; nord = false; ovest = false; riposo = false;
                     MessageBox.Show("Sotto!");
                 }
-                else if ((timerY > 0.5)&&(!nord))
+                else if ((timerY > 0.45)&&(!nord))
                 {
                     nord = true;
                     sud = false; ovest = false; est = false; riposo = false;
@@ -86,26 +96,38 @@ namespace AccelerometerWP7
                     sud = false; ovest = false; nord = false; riposo = false;
                     MessageBox.Show("Destra!");
                 }
-                else if((!riposo)&&(timerX>=-0.5)&&(timerX<=0.5)&&(timerY<=0.5)&&(timerY>=-0.5))
+                else if((!riposo)&&(timerX>=-0.48)&&(timerX<=0.48)&&(timerY<=0.38)&&(timerY>=-0.38))
                 {
                     riposo = true;
                     sud = false; ovest = false; nord = false; est = false;
-                    
+                    MessageBox.Show("Safe area!");
                 }
         }
 
-        void AccelerometerReadingChanged(object sender, AccelerometerReadingEventArgs e)
+        #region Modifica posizione del cursore
+
+        /// <summary>
+        /// Ogni 50 volte al secondo (frequenza di campionamento dell'accelerometro)
+        /// vado a chiamare il metodo UpdateImagePos
+        /// </summary>
+        private void OnAccelerometerHelperReadingChanged(object sender, AccelerometerHelperReadingEventArgs e)
         {
             Deployment.Current.Dispatcher.BeginInvoke(() => UpdateImagePos(e));
         }
 
-        void UpdateImagePos(AccelerometerReadingEventArgs e)
+        /// <summary>
+        /// Aggiorna la posizione del cursore ridefinendone i margini
+        /// </summary>
+        void UpdateImagePos(AccelerometerHelperReadingEventArgs e)
         {
-            timerX = Math.Round(e.X,3);
-            timerY = Math.Round(e.Y,3);
+            /* Vado a fare data smoothing dei dati presi dall'accelerometro */
+            timerX = Math.Round(e.OptimalyFilteredAcceleration.X, 3);
+            timerY = Math.Round(e.OptimalyFilteredAcceleration.Y, 3);
             Cursor.Margin = new Thickness(getX(), getY(), (width - (getX() + Cursor.Width)), (height - (getY() + Cursor.Height)));
         }
 
+
+        /// <returns> La nuova posizione del margine sinistro del cursore in modo che non esca dal rettangolo</returns>
         double getX()
         {
             var newX = centerX + (-accelX *1.5* centerX);
@@ -119,9 +141,11 @@ namespace AccelerometerWP7
             }
             return newX - CursorCenter;
         }
+
+        /// <returns> La nuova posizione del margine superiore del cursore in modo che non esca dal rettangolo</returns>
         double getY()
         {
-            var newY = centerY + (-accelY*1.5 * centerY);
+            var newY = centerY + (-accelY*1.7 * centerY);
            
             if ((newY - CursorCenter) < 0)
             {
@@ -133,9 +157,7 @@ namespace AccelerometerWP7
             }
             return newY - CursorCenter;
         }
-
-
-     
+        #endregion
 
     }
 }
