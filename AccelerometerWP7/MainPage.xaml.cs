@@ -13,6 +13,7 @@ using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
 using System.Windows.Threading;
+using System.Windows.Media.Imaging;
 
 
 namespace AccelerometerWP7
@@ -43,12 +44,8 @@ namespace AccelerometerWP7
         protected double _centerY = 800 / 2;
         protected double _timerX = 0;
         protected double _timerY = 0;
-        protected bool nord=false;
-        protected bool sud=false;
-        protected bool est=false;
-        protected bool ovest=false;
-        protected bool riposo=false;
-        protected bool risposta = false;
+        protected bool ant = true;
+
         #endregion
 
         // Constructor
@@ -65,8 +62,8 @@ namespace AccelerometerWP7
             // Creo un'istanza di AccelerometerHelper con singleton
             AccelerometerHelper.Instance.ReadingChanged += new EventHandler<AccelerometerHelperReadingEventArgs>(OnAccelerometerHelperReadingChanged);
             AccelerometerHelper.Instance.Active = true;
-
             timer.Start();
+
         }
 
         
@@ -84,39 +81,23 @@ namespace AccelerometerWP7
                 accelX = -timerX ;//setta la nuoava posizione (invertita, ruotando a destra freccia a destra)
                 accelY = timerY;
 
-                if ((timerY < -0.45)&&(!sud))
-                {
-                    sud = true;
-                    est = false; nord = false; ovest = false; riposo = false; risposta = true;
-                }
-                else if ((timerY > 0.45)&&(!nord))
-                {
-                    nord = true;
-                    sud = false; ovest = false; est = false; riposo = false; risposta = true;
-                  
-                }
-                else if ((timerX < -0.52)&&(!ovest))
-                {
-                    ovest = true;
-                    sud = false; nord = false; est = false; riposo = false; risposta = true;
-                   
-                }
-                else if ((timerX > 0.52) && (!est))
-                {
-                    est = true;
-                    sud = false; ovest = false; nord = false; riposo = false; risposta = true;
-                    
-                }
-                else if((!riposo)&&(timerX>=-0.48)&&(timerX<=0.48)&&(timerY<=0.38)&&(timerY>=-0.38))
-                {
-                    riposo = true;
-                    sud = false; ovest = false; nord = false; est = false;
-                    if (risposta)
-                    {
-                        MessageBox.Show("Safe area!");
-                        risposta = false;
-                    }
-                }
+                Formica1.Source = cambiaTextureFormica();
+                Formica2.Source = cambiaTextureFormica();
+                Formica3.Source = cambiaTextureFormica();
+                Formica4.Source = cambiaTextureFormica();
+                Formica5.Source = cambiaTextureFormica();
+                Formica6.Source = cambiaTextureFormica();
+                Formica7.Source = cambiaTextureFormica();
+               /* Formica8.Source = cambiaTextureFormica();*/
+        }
+
+        /// <summary>
+        /// aggiorna l'immagine formica per il movimento delle zampette
+        /// </summary>
+        private ImageSource cambiaTextureFormica()
+        {
+            if (ant) { ant = false; return new BitmapImage(new Uri("Images/ant2.png", UriKind.Relative)); }
+            else { ant = true; return new BitmapImage(new Uri("Images/ant.png", UriKind.Relative)); }
         }
 
         #region Modifica posizione del cursore
@@ -142,7 +123,8 @@ namespace AccelerometerWP7
             if (collisione())
             {
                 timer.Stop();
-                MessageBox.Show("formica distrutta" + "getX=" + getX() + " getX+Cursor.Width=" + (getX() + Cursor.Width) + " _timerX=" + _timerX + " _timerX+Formica.Width=" + (_timerX + Formica.Width));
+                Formica1.Source = null;
+                //MessageBox.Show("formica distrutta" + "getX=" + getX() + " getX+Cursor.Width=" + (getX() + Cursor.Width) + " _timerX=" + _timerX + " _timerX+Formica.Width=" + (_timerX + Formica.Width));
             }
 
         }
@@ -150,12 +132,12 @@ namespace AccelerometerWP7
         void UpdateImagePos2()
         {
             if (controlla())
-                Formica.Margin = new Thickness(_timerX, _timerY, (_width - (_timerX + Cursor.Width)), (_height - (_timerY + Cursor.Height)));
+                Formica1.Margin = new Thickness(_timerX, _timerY, (_width - (_timerX + Cursor.Width)), (_height - (_timerY + Cursor.Height)));
 
         }
 
         bool collisione() {
-            if (((_timerX <= getX() && getX() <= (_timerX + Formica.Width)) || (_timerX <= (getX() + Cursor.Width) && (getX() + Cursor.Width) <= (_timerX + Formica.Width))) && ((_timerY <= getY() && getY() <= (_timerY + Formica.Height)) || (_timerY <= (getY() + Cursor.Height) && (getY() + Cursor.Height) <= (_timerY + Formica.Height))))
+            if (((_timerX <= getX() && getX() <= (_timerX + Formica1.Width)) || (_timerX <= (getX() + Cursor.Width) && (getX() + Cursor.Width) <= (_timerX + Formica1.Width))) && ((_timerY <= getY() && getY() <= (_timerY + Formica1.Height)) || (_timerY <= (getY() + Cursor.Height) && (getY() + Cursor.Height) <= (_timerY + Formica1.Height))))
                 return true;
             else return false;
         }

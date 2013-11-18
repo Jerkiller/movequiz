@@ -14,7 +14,7 @@
     shell:SystemTray.IsVisible="True">
 
     <!--LayoutRoot is the root grid where all page content is placed-->
-    <Grid x:Name="LayoutRoot" Background="Transparent">
+    <Grid x:Name="LayoutRoot" Background="#FF176E22">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
@@ -22,8 +22,44 @@
 
 
         <Image Margin="215,360,215,360" Height="80" Name="Cursor" Width="50" Source="/cursor.png" Canvas.ZIndex="1000" RenderTransformOrigin="-1.118,-9.153"  />
-        <Image Margin="0,0,430,720" Height="80" Name="Formica" Width="50" Source="Images/formica.png"  Canvas.ZIndex="900"  />
+
         <Image Margin="190,320,190,380" Height="100" Name="Tana" Width="100" Source="Images/tana.png"  Canvas.ZIndex="800"  />
+        <Image Margin="-11,-15,441,763" Height="80" Name="Formica1" Width="50" Source="Images/ant.png"  Canvas.ZIndex="900" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"  >
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="52"/>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="-14,354,444,394" Height="80" x:Name="Formica2" Width="50" Source="/Images/ant.png"  Canvas.ZIndex="900" RenderTransformOrigin="0.5,0.5"  />
+        <Image Margin="4.477,720.895,425.522,-0.896" Height="80" x:Name="Formica3" Width="50" Source="/Images/ant.png"  Canvas.ZIndex="900" RenderTransformOrigin="0,0"  UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.RowSpan="2"  >
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="-57"/>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="215,-25,215,773" Height="80" x:Name="Formica4" Width="50" Source="/Images/ant.png"  Canvas.ZIndex="900" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"  >
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="90"/>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="215,684,215,64" Height="80" x:Name="Formica5" Width="50" Source="/Images/ant.png"  Canvas.ZIndex="900" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto"  >
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="270"/>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="431.477,752.896,-1.478,-4.896" Height="80" x:Name="Formica6" Width="50" Source="/Images/ant.png"  Canvas.ZIndex="900" RenderTransformOrigin="0,0"  UseLayoutRounding="False" d:LayoutRounding="Auto" Grid.RowSpan="2"  >
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="240"/>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="439,318,-9,430" Height="80" x:Name="Formica7" Width="50" Source="/Images/ant.png"  Canvas.ZIndex="900" RenderTransformOrigin="0.5,0.5"  >
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="180"/>
+            </Image.RenderTransform>
+        </Image>
+        <Image Margin="420,-40,10,788" Height="80" x:Name="Formica8" Width="50" Source="/Images/ant.png"  Canvas.ZIndex="900" RenderTransformOrigin="0.5,0.5"  UseLayoutRounding="False" d:LayoutRounding="Auto"  >
+            <Image.RenderTransform>
+                <CompositeTransform Rotation="140"/>
+            </Image.RenderTransform>
+        </Image>
 
     </Grid>
 </phone:PhoneApplicationPage>
