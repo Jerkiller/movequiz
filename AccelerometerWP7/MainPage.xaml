@@ -21,16 +21,9 @@
         </Grid.RowDefinitions>
 
 
-        <Image Margin="291,335,139,353" Height="80" Name="Cursor" Width="50" Source="/cursor.png" Grid.Row="1" Canvas.ZIndex="800"  />
-        <Rectangle Fill="Blue" HorizontalAlignment="Left" Height="100" Margin="0,668,0,0" Stroke="Black" VerticalAlignment="Top" Width="480" Grid.Row="1" Canvas.ZIndex="-50"/>
-        <Rectangle Fill="LimeGreen" HorizontalAlignment="Left" Height="100" Stroke="Black" VerticalAlignment="Top" Width="480" Grid.Row="1" Canvas.ZIndex="-50"/>
-        <Rectangle Fill="Yellow" HorizontalAlignment="Left" Height="568" Margin="410,100,0,0" Grid.RowSpan="2" Stroke="Black" VerticalAlignment="Top" Width="70" Canvas.ZIndex="-10"/>
-        <Rectangle Fill="Red" HorizontalAlignment="Left" Height="568" Margin="0,100,0,0" Grid.RowSpan="2" Stroke="Black" VerticalAlignment="Top" Width="70" Canvas.ZIndex="-10"/>
-        <TextBlock HorizontalAlignment="Left" Margin="70,245,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Questa è la tipica domanda con 4 risposte?" VerticalAlignment="Top" Height="111" Width="335" FontSize="25" TextAlignment="Center"/>
-        <TextBlock HorizontalAlignment="Left" Margin="70,356,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Risposta_a" VerticalAlignment="Top" Width="335" FontSize="30" Foreground="LimeGreen" TextAlignment="Center" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Margin="70,396,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Risposta_b" VerticalAlignment="Top" Width="335" FontSize="30" Foreground="Yellow" TextAlignment="Center" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Margin="70,436,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Risposta_c" VerticalAlignment="Top" Width="335" FontSize="30" Foreground="Blue" TextAlignment="Center" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Margin="70,476,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Risposta_d" VerticalAlignment="Top" Width="335" FontSize="30" Foreground="Red" TextAlignment="Center" FontWeight="Bold"/>
-        <TextBlock HorizontalAlignment="Left" Margin="75,105,0,0" Grid.Row="1" TextWrapping="Wrap" Text="5" VerticalAlignment="Top" Height="558" Width="335" Canvas.ZIndex="-5" FontSize="350" Foreground="#66FFFFFF" TextAlignment="Center"/>
+        <Image Margin="215,360,215,360" Height="80" Name="Cursor" Width="50" Source="/cursor.png" Canvas.ZIndex="1000" RenderTransformOrigin="-1.118,-9.153"  />
+        <Image Margin="0,0,430,720" Height="80" Name="Formica" Width="50" Source="Images/formica.png"  Canvas.ZIndex="900"  />
+        <Image Margin="190,320,190,380" Height="100" Name="Tana" Width="100" Source="Images/tana.png"  Canvas.ZIndex="800"  />
+
     </Grid>
 </phone:PhoneApplicationPage>

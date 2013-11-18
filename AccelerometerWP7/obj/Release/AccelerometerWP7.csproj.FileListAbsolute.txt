@@ -1,0 +1,13 @@
+C:\Users\pc\Documents\GitHub\movequiz\AccelerometerWP7\Bin\Release\ApplicationIcon.png
+C:\Users\pc\Documents\GitHub\movequiz\AccelerometerWP7\Bin\Release\Background.png
+C:\Users\pc\Documents\GitHub\movequiz\AccelerometerWP7\Bin\Release\AccelerometerWP7.dll
+C:\Users\pc\Documents\GitHub\movequiz\AccelerometerWP7\Bin\Release\AccelerometerWP7.pdb
+C:\Users\pc\Documents\GitHub\movequiz\AccelerometerWP7\Bin\Release\AppManifest.xaml
+C:\Users\pc\Documents\GitHub\movequiz\AccelerometerWP7\Bin\Release\AccelerometerWP7.xap
+C:\Users\pc\Documents\GitHub\movequiz\AccelerometerWP7\obj\Release\App.g.cs
+C:\Users\pc\Documents\GitHub\movequiz\AccelerometerWP7\obj\Release\MainPage.g.cs
+C:\Users\pc\Documents\GitHub\movequiz\AccelerometerWP7\obj\Release\AccelerometerWP7.g.resources
+C:\Users\pc\Documents\GitHub\movequiz\AccelerometerWP7\obj\Release\AccelerometerWP7.dll
+C:\Users\pc\Documents\GitHub\movequiz\AccelerometerWP7\obj\Release\AccelerometerWP7.pdb
+C:\Users\pc\Documents\GitHub\movequiz\AccelerometerWP7\obj\Release\XapCacheFile.xml
+C:\Users\pc\Documents\GitHub\movequiz\AccelerometerWP7\obj\Release\AccelerometerWP7.csprojResolveAssemblyReference.cache

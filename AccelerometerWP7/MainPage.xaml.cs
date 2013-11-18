@@ -32,11 +32,23 @@ namespace AccelerometerWP7
         protected double centerY = 800 / 2;
         protected double timerX;
         protected double timerY;
+        protected double _CursorCenter;
+        protected double _accelY = 0;
+        protected double _accelX = 0;
+        protected double _xdiff;
+        protected double _ydiff;
+        protected double _width = 480;
+        protected double _height = 800;
+        protected double _centerX = 480 / 2;
+        protected double _centerY = 800 / 2;
+        protected double _timerX = 0;
+        protected double _timerY = 0;
         protected bool nord=false;
         protected bool sud=false;
         protected bool est=false;
         protected bool ovest=false;
         protected bool riposo=false;
+        protected bool risposta = false;
         #endregion
 
         // Constructor
@@ -65,42 +77,45 @@ namespace AccelerometerWP7
         void timer_Tick(object sender, EventArgs e)
         {
             CursorCenter = Cursor.Width / 2;
+            UpdateImagePos2();
+            xdiff = timerX - accelX; //differenziale tra x vecchia e x nuova
+            ydiff = timerY - accelY;    //differenziale tra y vecchia e y nuova
 
-            xdiff = timerX - accelX;
-            ydiff = timerY - accelY;
-
-                accelX = -timerX ;
+                accelX = -timerX ;//setta la nuoava posizione (invertita, ruotando a destra freccia a destra)
                 accelY = timerY;
 
                 if ((timerY < -0.45)&&(!sud))
                 {
                     sud = true;
-                    est = false; nord = false; ovest = false; riposo = false;
-                    MessageBox.Show("Sotto!");
+                    est = false; nord = false; ovest = false; riposo = false; risposta = true;
                 }
                 else if ((timerY > 0.45)&&(!nord))
                 {
                     nord = true;
-                    sud = false; ovest = false; est = false; riposo = false;
-                    MessageBox.Show("Sopra!");
+                    sud = false; ovest = false; est = false; riposo = false; risposta = true;
+                  
                 }
                 else if ((timerX < -0.52)&&(!ovest))
                 {
                     ovest = true;
-                    sud = false; nord = false; est = false; riposo = false;
-                    MessageBox.Show("Sinistra!");
+                    sud = false; nord = false; est = false; riposo = false; risposta = true;
+                   
                 }
                 else if ((timerX > 0.52) && (!est))
                 {
                     est = true;
-                    sud = false; ovest = false; nord = false; riposo = false;
-                    MessageBox.Show("Destra!");
+                    sud = false; ovest = false; nord = false; riposo = false; risposta = true;
+                    
                 }
                 else if((!riposo)&&(timerX>=-0.48)&&(timerX<=0.48)&&(timerY<=0.38)&&(timerY>=-0.38))
                 {
                     riposo = true;
                     sud = false; ovest = false; nord = false; est = false;
-                    MessageBox.Show("Safe area!");
+                    if (risposta)
+                    {
+                        MessageBox.Show("Safe area!");
+                        risposta = false;
+                    }
                 }
         }
 
@@ -124,6 +139,38 @@ namespace AccelerometerWP7
             timerX = Math.Round(e.OptimalyFilteredAcceleration.X, 3);
             timerY = Math.Round(e.OptimalyFilteredAcceleration.Y, 3);
             Cursor.Margin = new Thickness(getX(), getY(), (width - (getX() + Cursor.Width)), (height - (getY() + Cursor.Height)));
+            if (collisione())
+            {
+                timer.Stop();
+                MessageBox.Show("formica distrutta" + "getX=" + getX() + " getX+Cursor.Width=" + (getX() + Cursor.Width) + " _timerX=" + _timerX + " _timerX+Formica.Width=" + (_timerX + Formica.Width));
+            }
+
+        }
+
+        void UpdateImagePos2()
+        {
+            if (controlla())
+                Formica.Margin = new Thickness(_timerX, _timerY, (_width - (_timerX + Cursor.Width)), (_height - (_timerY + Cursor.Height)));
+
+        }
+
+        bool collisione() {
+            if (((_timerX <= getX() && getX() <= (_timerX + Formica.Width)) || (_timerX <= (getX() + Cursor.Width) && (getX() + Cursor.Width) <= (_timerX + Formica.Width))) && ((_timerY <= getY() && getY() <= (_timerY + Formica.Height)) || (_timerY <= (getY() + Cursor.Height) && (getY() + Cursor.Height) <= (_timerY + Formica.Height))))
+                return true;
+            else return false;
+        }
+
+        bool controlla()
+        {
+            _timerX += 1;
+            _timerY += 1.5;
+            if ((_timerX + (_CursorCenter * 2) >= 190) && (_timerY - (_CursorCenter * 2) >= 300))
+            {
+                MessageBox.Show("ti ga perso");
+                timer.Stop();
+                return false;
+            }
+            else return true;
         }
 
 
