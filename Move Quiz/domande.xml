@@ -1,0 +1,1156 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--Si suppone che la risposta_a sia sempre esatta. Verrà in seguito randomizzata la disposizione delle risposte-->
+<livelli>
+  <livello id="1">
+      <domanda>
+        <testo>Quando fu l'attentato alle torri gemelle a New York?</testo>
+        <risposta_a>11 Settembre 2001</risposta_a>
+        <risposta_b>11 Settembre 2000</risposta_b>
+        <risposta_c>21 Settembre 2000</risposta_c>
+        <risposta_d>21 Settembre 2001</risposta_d>
+      </domanda>
+    <domanda>
+      <testo>In quale città si trova l'abbazia di Westminster?</testo>
+      <risposta_a>Londra</risposta_a>
+      <risposta_b>Indianapolis</risposta_b>
+      <risposta_c>Calcutta</risposta_c>
+      <risposta_d>Vienna</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Qual è un multiplo di 3?</testo>
+      <risposta_a>102</risposta_a>
+      <risposta_b>101</risposta_b>
+      <risposta_c>100</risposta_c>
+      <risposta_d>103</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>In quale anno finì la Seconda Guerra Mondiale?</testo>
+      <risposta_a>1945</risposta_a>
+      <risposta_b>1946</risposta_b>
+      <risposta_c>1947</risposta_c>
+      <risposta_d>1939</risposta_d>
+    </domanda>
+      <domanda>
+        <testo>Quale era il cognome di Napoleone?</testo>
+        <risposta_a>Bonaparte</risposta_a>
+        <risposta_b>Ajaccio</risposta_b>
+        <risposta_c>Lelouch</risposta_c>
+        <risposta_d>Eiffel</risposta_d>
+      </domanda>
+    <domanda>
+      <testo>Dove si trova la rotula?</testo>
+      <risposta_a>Ginocchio</risposta_a>
+      <risposta_b>Braccio</risposta_b>
+      <risposta_c>Spalla</risposta_c>
+      <risposta_d>Testa</risposta_d>
+    </domanda>
+      <domanda>
+        <testo>Chi fu il dittatore Italiano durante il periodo fascista?</testo>
+        <risposta_a>Mussolini</risposta_a>
+        <risposta_b>Hitler</risposta_b>
+        <risposta_c>Badoglio</risposta_c>
+        <risposta_d>Ciano</risposta_d>
+      </domanda>
+      <domanda>
+        <testo>Quali furono, secondo la leggenda, i due fratelli che fondarono Roma?</testo>
+        <risposta_a>Romolo &amp; Remo</risposta_a>
+        <risposta_b>Raimondo &amp; Romano</risposta_b>
+        <risposta_c>Marco &amp; Tullio</risposta_c>
+        <risposta_d>Cesare &amp; Giulio</risposta_d>
+      </domanda>
+    <domanda>
+      <testo>Come si chiama il "giallo" dell'uovo?</testo>
+      <risposta_a>Tuorlo</risposta_a>
+      <risposta_b>Albume</risposta_b>
+      <risposta_c>Midollo</risposta_c>
+      <risposta_d>Enzima</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Che animale è Pippo?</testo>
+      <risposta_a>Cane</risposta_a>
+      <risposta_b>Pappagallo</risposta_b>
+      <risposta_c>Scimmia</risposta_c>
+      <risposta_d>Uomo</risposta_d>
+    </domanda>
+  </livello>
+  <livello id="2">
+    <domanda>
+      <testo>Come si chiamano le uova pregiate dello storione?</testo>
+      <risposta_a>Caviale</risposta_a>
+      <risposta_b>Escargot</risposta_b>
+      <risposta_c>Mitili</risposta_c>
+      <risposta_d>Stornelle</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quanti erano i componenti del gruppo inglese The Beatles?</testo>
+      <risposta_a>4</risposta_a>
+      <risposta_b>6</risposta_b>
+      <risposta_c>3</risposta_c>
+      <risposta_d>7</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>In quale anno iniziò la Seconda Guerra Mondiale?</testo>
+      <risposta_a>1939</risposta_a>
+      <risposta_b>1940</risposta_b>
+      <risposta_c>1936</risposta_c>
+      <risposta_d>1915</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Dove nacque l'Induismo?</testo>
+      <risposta_a>Valle dell'Indo</risposta_a>
+      <risposta_b>Thailandia</risposta_b>
+      <risposta_c>Giappone</risposta_c>
+      <risposta_d>Pakistan</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Chi fu il primo presidente degli U.S.A. di colore?</testo>
+      <risposta_a>Barack Obama</risposta_a>
+      <risposta_b>Martin Luther King</risposta_b>
+      <risposta_c>Thomas Jefferson</risposta_c>
+      <risposta_d>Abraham Lincoln</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Di quanti pezzi dispone ciascun giocatore in una partita di scacchi?</testo>
+      <risposta_a>16</risposta_a>
+      <risposta_b>12</risposta_b>
+      <risposta_c>10</risposta_c>
+      <risposta_d>8</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quando fu il Millenium Bug che colpì i sistemi informatici?</testo>
+      <risposta_a>2000</risposta_a>
+      <risposta_b>2002</risposta_b>
+      <risposta_c>1998</risposta_c>
+      <risposta_d>2001</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Chi fu il primo presidente degli U.S.A.?</testo>
+      <risposta_a>George Washington</risposta_a>
+      <risposta_b>John Adams</risposta_b>
+      <risposta_c>Theodore Roosevelt</risposta_c>
+      <risposta_d>Franklin Roosevelt</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale fiume scorre a Lisbona?</testo>
+      <risposta_a>Tago</risposta_a>
+      <risposta_b>Ebro</risposta_b>
+      <risposta_c>Senna</risposta_c>
+      <risposta_d>Reno</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quando fu inventata la Coca-Cola?</testo>
+      <risposta_a>1886</risposta_a>
+      <risposta_b>1920</risposta_b>
+      <risposta_c>1848</risposta_c>
+      <risposta_d>1917</risposta_d>
+    </domanda>
+  </livello>
+  <livello id="3">
+    <domanda>
+      <testo>Chi è vissuto prima?</testo>
+      <risposta_a>Giulio Cesare</risposta_a>
+      <risposta_b>Cristo</risposta_b>
+      <risposta_c>Carlo Magno</risposta_c>
+      <risposta_d>San Francesco</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Qual è la vetta più alta d'Italia?</testo>
+      <risposta_a>Monte Bianco</risposta_a>
+      <risposta_b>Marmolada</risposta_b>
+      <risposta_c>Monte Civetta</risposta_c>
+      <risposta_d>Monte Etna</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Qual è la lettera più usata nell'alfabeto italiano?</testo>
+      <risposta_a>I</risposta_a>
+      <risposta_b>R</risposta_b>
+      <risposta_c>F</risposta_c>
+      <risposta_d>O</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quanti anni ha l'universo?</testo>
+      <risposta_a>13 miliardi</risposta_a>
+      <risposta_b>7.5 miliardi</risposta_b>
+      <risposta_c>2.1 miliardi</risposta_c>
+      <risposta_d>7 milioni</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Qual è una potenza di 2?</testo>
+      <risposta_a>64</risposta_a>
+      <risposta_b>62</risposta_b>
+      <risposta_c>72</risposta_c>
+      <risposta_d>80</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale fu il re di Francia che fu soprannominato "Il Breve"?</testo>
+      <risposta_a>Pipino</risposta_a>
+      <risposta_b>Carlo</risposta_b>
+      <risposta_c>Francesco</risposta_c>
+      <risposta_d>Gustavo</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale è il pianeta più vicino al sole?</testo>
+      <risposta_a>Mercurio</risposta_a>
+      <risposta_b>Venere</risposta_b>
+      <risposta_c>Plutone</risposta_c>
+      <risposta_d>Terra</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quanto è lunga una maratona?</testo>
+      <risposta_a>41.183 metri</risposta_a>
+      <risposta_b>35.292 metri</risposta_b>
+      <risposta_c>1.932 metri</risposta_c>
+      <risposta_d>49.999 metri</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Con chi nacque l'ideologia Comunista?</testo>
+      <risposta_a>Karl Marx</risposta_a>
+      <risposta_b>Mao Tse-tung</risposta_b>
+      <risposta_c>Lenin</risposta_c>
+      <risposta_d>Fidel Castro</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>In quale nazione le vacche sono sacre?</testo>
+      <risposta_a>India</risposta_a>
+      <risposta_b>Arabia Saudita</risposta_b>
+      <risposta_c>Cina</risposta_c>
+      <risposta_d>Francia</risposta_d>
+    </domanda>
+  </livello>
+  <livello id="4">
+    <domanda>
+      <testo>Di che colore era inizialmente la Coca-Cola?</testo>
+      <risposta_a>Verde</risposta_a>
+      <risposta_b>Rossa</risposta_b>
+      <risposta_c>Arancione</risposta_c>
+      <risposta_d>Marrone</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Chi ha inventato la pila elettrica?</testo>
+      <risposta_a>A. Volta</risposta_a>
+      <risposta_b>N. Tesla</risposta_b>
+      <risposta_c>G. Marconi</risposta_c>
+      <risposta_d>A. Meucci</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Qual è il quadrato di 13?</testo>
+      <risposta_a>169</risposta_a>
+      <risposta_b>133</risposta_b>
+      <risposta_c>363</risposta_c>
+      <risposta_d>269</risposta_d>
+    </domanda>
+    <domanda>
+        <testo>Dove nacque Adolf Hitler?</testo>
+        <risposta_a>Austria</risposta_a>
+        <risposta_b>Germania</risposta_b>
+        <risposta_c>Israele</risposta_c>
+        <risposta_d>Norvegia</risposta_d>
+      </domanda>
+    <domanda>
+      <testo>Qual è l'isola più grande della Terra?</testo>
+      <risposta_a>Groenlandia</risposta_a>
+      <risposta_b>Inghilterra</risposta_b>
+      <risposta_c>Irlanda</risposta_c>
+      <risposta_d>Australia</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale infermità colpì Beethoven?</testo>
+      <risposta_a>Sordità</risposta_a>
+      <risposta_b>Alzheimer</risposta_b>
+      <risposta_c>Morbo di Crohn</risposta_c>
+      <risposta_d>Cecità</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Chi è vissuto prima?</testo>
+      <risposta_a>Dante Alighieri</risposta_a>
+      <risposta_b>Giovanni Boccaccio</risposta_b>
+      <risposta_c>Galileo Galilei</risposta_c>
+      <risposta_d>Giuseppe Parini</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quante furono le fatiche di Ercole?</testo>
+      <risposta_a>12</risposta_a>
+      <risposta_b>5</risposta_b>
+      <risposta_c>7</risposta_c>
+      <risposta_d>8</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Chi ha inventato il personaggio di Lucignolo?</testo>
+      <risposta_a>C. Collodi</risposta_a>
+      <risposta_b>A. Manzoni</risposta_b>
+      <risposta_c>G. Pascoli</risposta_c>
+      <risposta_d>G. Boccaccio</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quanti divisori ha 8?</testo>
+      <risposta_a>4</risposta_a>
+      <risposta_b>6</risposta_b>
+      <risposta_c>2</risposta_c>
+      <risposta_d>5</risposta_d>
+    </domanda>
+  </livello>
+  <livello id="5">
+    <domanda>
+      <testo>Qual è la malattia più diffusa al mondo?</testo>
+      <risposta_a>Raffreddore</risposta_a>
+      <risposta_b>Tubercolosi</risposta_b>
+      <risposta_c>AIDS</risposta_c>
+      <risposta_d>Cancro</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Cosa inventò il signor Dunlop?</testo>
+      <risposta_a>Pneumatico</risposta_a>
+      <risposta_b>Motore a scoppio</risposta_b>
+      <risposta_c>Bicicletta</risposta_c>
+      <risposta_d>Locomotiva</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Chi fu pugnalato da Bruto e Cassio?</testo>
+      <risposta_a>Cesare</risposta_a>
+      <risposta_b>Nerone</risposta_b>
+      <risposta_c>Augusto</risposta_c>
+      <risposta_d>Caligola</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Che stato americano ha la bandiera verde bianca rossa?</testo>
+      <risposta_a>Messico</risposta_a>
+      <risposta_b>Uruguay</risposta_b>
+      <risposta_c>U.S.A.</risposta_c>
+      <risposta_d>Argentina</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>In quale anno si tennero le olimpiadi a roma?</testo>
+      <risposta_a>1960</risposta_a>
+      <risposta_b>1972</risposta_b>
+      <risposta_c>1952</risposta_c>
+      <risposta_d>1984</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>In quale località della Sicilia sbarcarono i mille?</testo>
+      <risposta_a>Marsala</risposta_a>
+      <risposta_b>Porto Empedocle</risposta_b>
+      <risposta_c>Trapani</risposta_c>
+      <risposta_d>Gela</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale città non è mai stata capitale d'Italia?</testo>
+      <risposta_a>Venezia</risposta_a>
+      <risposta_b>Firenze</risposta_b>
+      <risposta_c>Torino</risposta_c>
+      <risposta_d>Roma</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quanto vale π?</testo>
+      <risposta_a>3.1415926535</risposta_a>
+      <risposta_b>3.0708986835</risposta_b>
+      <risposta_c>2.9314157512</risposta_c>
+      <risposta_d>9.8696041214</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Di che colore è la maglia della Fiorentina?</testo>
+      <risposta_a>Viola</risposta_a>
+      <risposta_b>Bianca &amp; blu</risposta_b>
+      <risposta_c>Rossa &amp; blu</risposta_c>
+      <risposta_d>Verde</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>In che periodo si sviluppo l'età Medievale?</testo>
+      <risposta_a>Dal V al XV secolo</risposta_a>
+      <risposta_b>Dal I al X secolo</risposta_b>
+      <risposta_c>Dal V al VII secolo</risposta_c>
+      <risposta_d>Dal X al XVI secolo</risposta_d>
+    </domanda>
+  </livello>
+  <livello id="6">
+    <domanda>
+      <testo>Dove si trova la Versilia?</testo>
+      <risposta_a>Toscana</risposta_a>
+      <risposta_b>Marche</risposta_b>
+      <risposta_c>Veneto</risposta_c>
+      <risposta_d>Molise</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale periodo storico venne prima?</testo>
+      <risposta_a>Età del Bronzo</risposta_a>
+      <risposta_b>Età del Ferro</risposta_b>
+      <risposta_c>Età moderna</risposta_c>
+      <risposta_d>Età contemporanea</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quanto vale 1111 moltiplicato 1111?</testo>
+      <risposta_a>1234321</risposta_a>
+      <risposta_b>1111111</risposta_b>
+      <risposta_c>1222221</risposta_c>
+      <risposta_d>1212121</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Qual è il nome proprio di Ungaretti?</testo>
+      <risposta_a>Giuseppe</risposta_a>
+      <risposta_b>Mario</risposta_b>
+      <risposta_c>Paolo</risposta_c>
+      <risposta_d>Marco</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>In quale anno gli Stati Uniti sganciarono sul Giappone la prima bomba atomica?</testo>
+      <risposta_a>1945</risposta_a>
+      <risposta_b>1965</risposta_b>
+      <risposta_c>1934</risposta_c>
+      <risposta_d>1955</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Che cosa importò in Europa, il signor Nicot?</testo>
+      <risposta_a>Tabacco</risposta_a>
+      <risposta_b>Mais</risposta_b>
+      <risposta_c>Datteri</risposta_c>
+      <risposta_d>Fagioli</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Cos'è l'esaedro?</testo>
+      <risposta_a>Cubo</risposta_a>
+      <risposta_b>Sfera</risposta_b>
+      <risposta_c>Piramide</risposta_c>
+      <risposta_d>Piano</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Come si chiamavano i sostenitori di Lenin?</testo>
+      <risposta_a>Bolscevichi</risposta_a>
+      <risposta_b>Menscevichi</risposta_b>
+      <risposta_c>Zaristi</risposta_c>
+      <risposta_d>Trozkisti</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale città fu cosparsa di sale dai Romani?</testo>
+      <risposta_a>Cartagine</risposta_a>
+      <risposta_b>Londra</risposta_b>
+      <risposta_c>Efeso</risposta_c>
+      <risposta_d>Padova</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quanto vale 900900 diviso 30?</testo>
+      <risposta_a>30030</risposta_a>
+      <risposta_b>30010</risposta_b>
+      <risposta_c>3030</risposta_c>
+      <risposta_d>3003</risposta_d>
+    </domanda>
+  </livello>
+  <livello id="7">
+    <domanda>
+      <testo>in quanti modi posso ordinare una fila di 4 persone?</testo>
+      <risposta_a>24</risposta_a>
+      <risposta_b>12</risposta_b>
+      <risposta_c>4</risposta_c>
+      <risposta_d>36</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quando uscì il celebre disco "The Dark Side of the moon"?</testo>
+      <risposta_a>1973</risposta_a>
+      <risposta_b>1969</risposta_b>
+      <risposta_c>1979</risposta_c>
+      <risposta_d>1968</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Chi ha scritto "Il Passero Solitario"?</testo>
+      <risposta_a>G. Leopardi</risposta_a>
+      <risposta_b>U. Foscolo</risposta_b>
+      <risposta_c>F. Petrarca</risposta_c>
+      <risposta_d>G. Pascoli</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Dov'è ponente?</testo>
+      <risposta_a>Ovest</risposta_a>
+      <risposta_b>Nord</risposta_b>
+      <risposta_c>Sud</risposta_c>
+      <risposta_d>Est</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale colore è secondario?</testo>
+      <risposta_a>Verde</risposta_a>
+      <risposta_b>Giallo</risposta_b>
+      <risposta_c>Rosso</risposta_c>
+      <risposta_d>Blu</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quand'è stata la presa della Bastiglia?</testo>
+      <risposta_a>1789</risposta_a>
+      <risposta_b>1845</risposta_b>
+      <risposta_c>1715</risposta_c>
+      <risposta_d>1916</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Come sichiamava il movimento fondato da F.T. Marinetti?</testo>
+      <risposta_a>Futurismo</risposta_a>
+      <risposta_b>Neoprimitivismo</risposta_b>
+      <risposta_c>Socialismo</risposta_c>
+      <risposta_d>Scoutismo</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Chi era definito "Ciclope della Matematica"?</testo>
+      <risposta_a>Eulero</risposta_a>
+      <risposta_b>Pitagora</risposta_b>
+      <risposta_c>Omero</risposta_c>
+      <risposta_d>Gauss</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quanto vale l'accellerazione terrestre"?</testo>
+      <risposta_a>9.81 m/s²</risposta_a>
+      <risposta_b>15.00 m/s²</risposta_b>
+      <risposta_c>7.23 m/s²</risposta_c>
+      <risposta_d>6.56 m/s²</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quando avvenne la cosiddetta "Rivoluzione d'Ottobre"?</testo>
+      <risposta_a>1917</risposta_a>
+      <risposta_b>1905</risposta_b>
+      <risposta_c>1965</risposta_c>
+      <risposta_d>1948</risposta_d>
+    </domanda>
+  </livello>
+  <livello id="8">
+    <domanda>
+      <testo>Qual è il più grande divisore di 111?</testo>
+      <risposta_a>37</risposta_a>
+      <risposta_b>31</risposta_b>
+      <risposta_c>17</risposta_c>
+      <risposta_d>11</risposta_d>
+    </domanda>
+  <domanda>
+        <testo>A quale stato appartiene il Peloponneso?</testo>
+        <risposta_a>Grecia</risposta_a>
+        <risposta_b>Albania</risposta_b>
+        <risposta_c>Turchia</risposta_c>
+        <risposta_d>India</risposta_d>
+      </domanda>
+  <domanda>
+        <testo>In quale anno divenne papa Karol Woytila?</testo>
+        <risposta_a>1978</risposta_a>
+        <risposta_b>1992</risposta_b>
+        <risposta_c>1968</risposta_c>
+        <risposta_d>1988</risposta_d>
+  </domanda>
+  <domanda>
+        <testo>Quale conquistatore si espanse più di chiunque altro?</testo>
+        <risposta_a>Gengis Khan</risposta_a>
+        <risposta_b>Giorgio V</risposta_b>
+        <risposta_c>Hitler</risposta_c>
+        <risposta_d>Carlo Magno</risposta_d>
+  </domanda>
+  <domanda>
+      <testo>Quale di questi non è un numero primo?</testo>
+      <risposta_a>91</risposta_a>
+      <risposta_b>73</risposta_b>
+      <risposta_c>101</risposta_c>
+      <risposta_d>71</risposta_d>
+    </domanda>
+  <domanda>
+        <testo>Dove fu fatto il massacro delle olimpiadi del 1972</testo>
+        <risposta_a>Monaco</risposta_a>
+        <risposta_b>Montréal</risposta_b>
+        <risposta_c>Città del Messico</risposta_c>
+        <risposta_d>Parigi</risposta_d>
+  </domanda>
+  <domanda>
+        <testo>"Amen" è una parola...</testo>
+        <risposta_a>Ebraica</risposta_a>
+        <risposta_b>Latina</risposta_b>
+        <risposta_c>Italica</risposta_c>
+        <risposta_d>Greca</risposta_d>
+      </domanda>
+    <domanda>
+        <testo>Qual è la più antica forma di legislazione conosciuta?</testo>
+        <risposta_a>Codice di Hamurrabi</risposta_a>
+        <risposta_b>Stele di Roseta</risposta_b>
+        <risposta_c>Papiro di Hoffmann</risposta_c>
+        <risposta_d>Rotoli di Qumran</risposta_d>
+      </domanda>
+  <domanda>
+      <testo>Quali sono le caratteristiche della corrente elettrica erogata in casa?</testo>
+      <risposta_a>230V 50Hz</risposta_a>
+      <risposta_b>220V 60Hz</risposta_b>
+      <risposta_c>200V 50Hz</risposta_c>
+      <risposta_d>210V 60Hz</risposta_d>
+    </domanda>
+  <domanda>
+        <testo>Qual'era la costruzione più alta del mondo nel 1920?</testo>
+        <risposta_a>Tour Eiffel</risposta_a>
+        <risposta_b>Chrysler Building</risposta_b>
+        <risposta_c>Petronas Tower</risposta_c>
+        <risposta_d>Empire State Building</risposta_d>
+      </domanda>
+  </livello>
+  <livello id="9">
+    <domanda>
+        <testo>In che anno è stato emesso il primo francobollo?</testo>
+        <risposta_a>1840</risposta_a>
+        <risposta_b>1899</risposta_b>
+        <risposta_c>1898</risposta_c>
+        <risposta_d>1792</risposta_d>
+      </domanda>
+   <domanda>
+        <testo>Cos'è "ai lati d'Italia"?</testo>
+        <risposta_a>Palindromo</risposta_a>
+        <risposta_b>Metonimia</risposta_b>
+        <risposta_c>Sineddoche</risposta_c>
+        <risposta_d>Tautogramma</risposta_d>
+   </domanda>
+   <domanda>
+        <testo>In quale città Napoleone fu proclamato re d'Italia?</testo>
+        <risposta_a>Parigi</risposta_a>
+        <risposta_b>Roma</risposta_b>
+        <risposta_c>Ginevra</risposta_c>
+        <risposta_d>Bologna</risposta_d>
+      </domanda>
+  <domanda>
+        <testo>Quale di questi vini non è un nome geografico?</testo>
+        <risposta_a>Cannonau</risposta_a>
+        <risposta_b>Prosecco</risposta_b>
+        <risposta_c>Chianti</risposta_c>
+        <risposta_d>Soave</risposta_d>
+   </domanda>
+  <domanda>
+        <testo>A chi viene attribuita la nascita del Rugby?</testo>
+        <risposta_a>William Webb Ellis</risposta_a>
+        <risposta_b>John Paul Rugby</risposta_b>
+        <risposta_c>James Gilbert</risposta_c>
+        <risposta_d>Alexander Cromie</risposta_d>
+   </domanda>
+  <domanda>
+        <testo>Come si chiamava l'organo di polizia Fascista?</testo>
+        <risposta_a>OVRA</risposta_a>
+        <risposta_b>EIAR</risposta_b>
+        <risposta_c>ONMI</risposta_c>
+        <risposta_d>SISMI</risposta_d>
+      </domanda>
+  <domanda>
+        <testo>Qual è la funzione inversa del seno?</testo>
+        <risposta_a>Arcoseno</risposta_a>
+        <risposta_b>Coseno</risposta_b>
+        <risposta_c>Tangente</risposta_c>
+        <risposta_d>Seno iperbolico</risposta_d>
+      </domanda>
+  <domanda>
+        <testo>Quando morì Marco Polo?</testo>
+        <risposta_a>1324</risposta_a>
+        <risposta_b>1492</risposta_b>
+        <risposta_c>1212</risposta_c>
+        <risposta_d>1508</risposta_d>
+      </domanda>
+  <domanda>
+        <testo>Chi fu considerato il padre dell'informatica?</testo>
+        <risposta_a>A. Turing</risposta_a>
+        <risposta_b>J. Nash</risposta_b>
+        <risposta_c>C.F. Gauss</risposta_c>
+        <risposta_d>D. Hilbert</risposta_d>
+      </domanda>
+  <domanda>
+        <testo>Quanto vale 22 in base 20?</testo>
+        <risposta_a>12</risposta_a>
+        <risposta_b>11</risposta_b>
+        <risposta_c>22</risposta_c>
+        <risposta_d>21</risposta_d>
+      </domanda>
+  </livello>
+  <livello id="10">
+    <domanda>
+      <testo>Quale di questi strumenti è famoso per la coulisse?</testo>
+      <risposta_a>Trombone</risposta_a>
+      <risposta_b>Eufonio</risposta_b>
+      <risposta_c>Tromba</risposta_c>
+      <risposta_d>Sousafono</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Cosa sono i licheni?</testo>
+      <risposta_a>Esseri simbiontici</risposta_a>
+      <risposta_b>Funghi</risposta_b>
+      <risposta_c>Alghe</risposta_c>
+      <risposta_d>Piante</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Chi finanziò Cristoforo Colombo nel suo viaggio?</testo>
+      <risposta_a>Isabella di Castiglia</risposta_a>
+      <risposta_b>Filippo I d'Asburgo</risposta_b>
+      <risposta_c>Giovanna la pazza</risposta_c>
+      <risposta_d>Il doge</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Di dov'era Nicolò Machiavelli?</testo>
+      <risposta_a>Firenze</risposta_a>
+      <risposta_b>Perugia</risposta_b>
+      <risposta_c>Todi</risposta_c>
+      <risposta_d>Bologna</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale di questi non è relativo alla pressione?</testo>
+      <risposta_a>Baud</risposta_a>
+      <risposta_b>Bar</risposta_b>
+      <risposta_c>Mm Hg</risposta_c>
+      <risposta_d>Pascal</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quando ci fu una tremenda alluvione in Italia?</testo>
+      <risposta_a>1966</risposta_a>
+      <risposta_b>1979</risposta_b>
+      <risposta_c>1983</risposta_c>
+      <risposta_d>1944</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>In che stato venne scritta la celebre "Smoke on the water"?</testo>
+      <risposta_a>Svizzera</risposta_a>
+      <risposta_b>U.S.A.</risposta_b>
+      <risposta_c>Francia</risposta_c>
+      <risposta_d>Inghilterra</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Cosa viene dopo 1 3 4 7 11 18?</testo>
+      <risposta_a>29</risposta_a>
+      <risposta_b>38</risposta_b>
+      <risposta_c>27</risposta_c>
+      <risposta_d>23</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale di questi non era un intellettuale greco?</testo>
+      <risposta_a>Spartaco</risposta_a>
+      <risposta_b>Aristofane</risposta_b>
+      <risposta_c>Anassagora</risposta_c>
+      <risposta_d>Sofocle</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quando venne fondata la RAI?</testo>
+      <risposta_a>1905</risposta_a>
+      <risposta_b>1954</risposta_b>
+      <risposta_c>1944</risposta_c>
+      <risposta_d>1946</risposta_d>
+    </domanda>
+  </livello>
+  <livello id="11">
+    <domanda>
+      <testo>Quale di queste parole non deriva dall'arabo?</testo>
+      <risposta_a>Alabastro</risposta_a>
+      <risposta_b>Albicocca</risposta_b>
+      <risposta_c>Algebra</risposta_c>
+      <risposta_d>Alchimia</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>In quale anno si verifico' la strage di Capaci?</testo>
+      <risposta_a>1992</risposta_a>
+      <risposta_b>1972</risposta_b>
+      <risposta_c>1980</risposta_c>
+      <risposta_d>1968</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Che elemento scoprì F. Lecoq?</testo>
+      <risposta_a>Gallio</risposta_a>
+      <risposta_b>Silicio</risposta_b>
+      <risposta_c>Vanadio</risposta_c>
+      <risposta_d>Rubidio</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Dove veniva inizialmente prodotto il Denim?</testo>
+      <risposta_a>Francia</risposta_a>
+      <risposta_b>Spagna</risposta_b>
+      <risposta_c>Turchia</risposta_c>
+      <risposta_d>Pakistan</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Cosa indica il deficit nel bilancio?</testo>
+      <risposta_a>Rosso</risposta_a>
+      <risposta_b>Giallo</risposta_b>
+      <risposta_c>Verde</risposta_c>
+      <risposta_d>Blu</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quando fu inventata la penicillina da Fleming?</testo>
+      <risposta_a>1929</risposta_a>
+      <risposta_b>1876</risposta_b>
+      <risposta_c>1913</risposta_c>
+      <risposta_d>1916</risposta_d>
+    </domanda>
+    <domanda>
+    <testo>Chi diresse "Viale del Tramonto" nel 1950?</testo>
+    <risposta_a>B. Wilder</risposta_a>
+    <risposta_b>C.B. De Mille</risposta_b>
+    <risposta_c>G. Cukor</risposta_c>
+    <risposta_d>E. Kazan</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Che parola non era usata dagli indiani d'America?</testo>
+      <risposta_a>Kayak</risposta_a>
+      <risposta_b>Wampum</risposta_b>
+      <risposta_c>Wigwam</risposta_c>
+      <risposta_d>Calumet</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Cos'è il Kookaburra?</testo>
+      <risposta_a>Uccello</risposta_a>
+      <risposta_b>Pesce</risposta_b>
+      <risposta_c>Cane selvatico</risposta_c>
+      <risposta_d>Strumento</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Qual è il minimo comune multiplo tra 12 e 15?</testo>
+      <risposta_a>60</risposta_a>
+      <risposta_b>90</risposta_b>
+      <risposta_c>75</risposta_c>
+      <risposta_d>48</risposta_d>
+    </domanda>
+  </livello>
+  <livello id="12">
+    <domanda>
+      <testo>Di che territorio era re Nabucodonosor?</testo>
+      <risposta_a>Babilonia</risposta_a>
+      <risposta_b>Egitto</risposta_b>
+      <risposta_c>Tracia</risposta_c>
+      <risposta_d>Fenicia</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quando venne firmato il patto di acciaio fra Italia e Germania?</testo>
+      <risposta_a>1939</risposta_a>
+      <risposta_b>1855</risposta_b>
+      <risposta_c>1890</risposta_c>
+      <risposta_d>1943</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Chi aderiva all'esistenzialismo?</testo>
+      <risposta_a>Sartre</risposta_a>
+      <risposta_b>Freud</risposta_b>
+      <risposta_c>Hegel</risposta_c>
+      <risposta_d>Descartes</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Di che posto è originario l'Aye-Aye?</testo>
+      <risposta_a>Madagascar</risposta_a>
+      <risposta_b>Australia</risposta_b>
+      <risposta_c>Cile</risposta_c>
+      <risposta_d>Fiji</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quando nacque C. Darwin?</testo>
+      <risposta_a>1809</risposta_a>
+      <risposta_b>1859</risposta_b>
+      <risposta_c>1864</risposta_c>
+      <risposta_d>1873</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Chi inventò il Tri-nitro-toluene?</testo>
+      <risposta_a>Nobel</risposta_a>
+      <risposta_b>Fuller</risposta_b>
+      <risposta_c>Jackson</risposta_c>
+      <risposta_d>Curie</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Diresse "Il Settimo Sigillo"?</testo>
+      <risposta_a>I. Bergman</risposta_a>
+      <risposta_b>S. Kubrick</risposta_b>
+      <risposta_c>O. Welles</risposta_c>
+      <risposta_d>S. Spielberg</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale di questi non è un gas nobile?</testo>
+      <risposta_a>Elio</risposta_a>
+      <risposta_b>Argo</risposta_b>
+      <risposta_c>Xeno</risposta_c>
+      <risposta_d>Neon</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale di queste ditte non produceva pistole?</testo>
+      <risposta_a>Tyssen Krupp</risposta_a>
+      <risposta_b>Mauser</risposta_b>
+      <risposta_c>Smith &amp; Wesson</risposta_c>
+      <risposta_d>Beretta</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Qual è il quadrato di i?</testo>
+      <risposta_a>-1</risposta_a>
+      <risposta_b>1</risposta_b>
+      <risposta_c>0</risposta_c>
+      <risposta_d>i</risposta_d>
+    </domanda>
+  </livello>
+  <livello id="13">
+    <domanda>
+      <testo>Di quante sure è composto il Corano?</testo>
+      <risposta_a>114</risposta_a>
+      <risposta_b>111</risposta_b>
+      <risposta_c>72</risposta_c>
+      <risposta_d>126</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quant'è inclinato l'asse terrestre?</testo>
+      <risposta_a>23° 27'</risposta_a>
+      <risposta_b>0° 0'</risposta_b>
+      <risposta_c>18° 15'</risposta_c>
+      <risposta_d>13° 57'</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quando venne effettuata la prima telefonata della storia?</testo>
+      <risposta_a>1876</risposta_a>
+      <risposta_b>1856</risposta_b>
+      <risposta_c>1901</risposta_c>
+      <risposta_d>1812</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quanti milioni di morti provocò la II Guerra Mondiale?</testo>
+      <risposta_a>Circa 40</risposta_a>
+      <risposta_b>Circa 60</risposta_b>
+      <risposta_c>Circa 20</risposta_c>
+      <risposta_d>Circa 50</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale di queste è una lega formata da rame, zinco e stagno?</testo>
+      <risposta_a>Princisbecco</risposta_a>
+      <risposta_b>Ottone</risposta_b>
+      <risposta_c>Peltro</risposta_c>
+      <risposta_d>Alluminio</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale di questi legni è il più utilizzato nella costruzione di botti?</testo>
+      <risposta_a>Quercia</risposta_a>
+      <risposta_b>Frassino</risposta_b>
+      <risposta_c>Abete</risposta_c>
+      <risposta_d>Mogano</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale di questi non è un sestiere di Venezia?</testo>
+      <risposta_a>San Zaccaria</risposta_a>
+      <risposta_b>Castello</risposta_b>
+      <risposta_c>Cannaregio</risposta_c>
+      <risposta_d>Giudecca</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quando venne fondata la FIAT?</testo>
+      <risposta_a>1899</risposta_a>
+      <risposta_b>1921</risposta_b>
+      <risposta_c>1912</risposta_c>
+      <risposta_d>1872</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Qual'era l'epiteto d'Achille?</testo>
+      <risposta_a>Piè veloce</risposta_a>
+      <risposta_b>il tallone</risposta_b>
+      <risposta_c>Elmo d'oro</risposta_c>
+      <risposta_d>Patroclo</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Qual è il nome della lettera "σ"?</testo>
+      <risposta_a>Sigma</risposta_a>
+      <risposta_b>Omega</risposta_b>
+      <risposta_c>Chi</risposta_c>
+      <risposta_d>Theta</risposta_d>
+    </domanda>
+  </livello>
+  <livello id="14">
+    <domanda>
+      <testo>Quando fu la strage terroristica alla stazione di bologna?</testo>
+      <risposta_a>1980</risposta_a>
+      <risposta_b>1965</risposta_b>
+      <risposta_c>1975</risposta_c>
+      <risposta_d>1991</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Vi appartengono le seppie...</testo>
+      <risposta_a>Cefalopodi</risposta_a>
+      <risposta_b>Cinocefali</risposta_b>
+      <risposta_c>Gasteropodi</risposta_c>
+      <risposta_d>Cefalocordati</risposta_d>
+    </domanda>
+      <domanda>
+        <testo>Quando venne proiettato per la prima volta in un cinema?</testo>
+        <risposta_a>1895</risposta_a>
+        <risposta_b>1867</risposta_b>
+        <risposta_c>1859</risposta_c>
+        <risposta_d>1915</risposta_d>
+      </domanda>
+    <domanda>
+      <testo>Chi scrisse "Gli otto peccati capitali"?</testo>
+      <risposta_a>K. Lorentz</risposta_a>
+      <risposta_b>J. Ratzinger</risposta_b>
+      <risposta_c>U. Eco</risposta_c>
+      <risposta_d>L. Feuerbach</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Come si chiama il punto d'incontro delle altezze in un triangolo?</testo>
+      <risposta_a>Ortocentro</risposta_a>
+      <risposta_b>Baricentro</risposta_b>
+      <risposta_c>Circocentro</risposta_c>
+      <risposta_d>Incentro</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale di queste opere fu scritta da Nietzsche?</testo>
+      <risposta_a>La gaia scienza</risposta_a>
+      <risposta_b>La mia battaglia</risposta_b>
+      <risposta_c>La nausea</risposta_c>
+      <risposta_d>Il capitale</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale di questi pittori non era impressionista?</testo>
+      <risposta_a>T. Lautrec</risposta_a>
+      <risposta_b>W. Turner</risposta_b>
+      <risposta_c>C. Monet</risposta_c>
+      <risposta_d>P. Cézanne</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale di queste frequenze rappresenta un La?</testo>
+      <risposta_a>220 Hz</risposta_a>
+      <risposta_b>330 Hz</risposta_b>
+      <risposta_c>340 Hz</risposta_c>
+      <risposta_d>282 Hz</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quale di questi non è un satellite di Giove?</testo>
+      <risposta_a>Ofelia</risposta_a>
+      <risposta_b>Io</risposta_b>
+      <risposta_c>Ananke</risposta_c>
+      <risposta_d>Leda</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Qual è la capitale dell'Oregon?</testo>
+      <risposta_a>Salem</risposta_a>
+      <risposta_b>Portland</risposta_b>
+      <risposta_c>Helena</risposta_c>
+      <risposta_d>Olympia</risposta_d>
+    </domanda>
+  </livello>
+  <livello id="15">
+    <domanda>
+      <testo>Quale di questi non è un divisore di 231?</testo>
+      <risposta_a>17</risposta_a>
+      <risposta_b>11</risposta_b>
+      <risposta_c>7</risposta_c>
+      <risposta_d>3</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Qual è la quinta giusta del Si?</testo>
+      <risposta_a>Fa#</risposta_a>
+      <risposta_b>Mi</risposta_b>
+      <risposta_c>Sol</risposta_c>
+      <risposta_d>Fa</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quando avvenne il "caso Moro"?</testo>
+      <risposta_a>1978</risposta_a>
+      <risposta_b>1975</risposta_b>
+      <risposta_c>1972</risposta_c>
+      <risposta_d>1969</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Che stato americano ha come motto "Oro y plata"?</testo>
+      <risposta_a>Montana</risposta_a>
+      <risposta_b>Nuovo Messico</risposta_b>
+      <risposta_c>Oregon</risposta_c>
+      <risposta_d>Arizona</risposta_d>
+    </domanda>
+    <domanda>
+      <testo>Quand'è nato Giorgio Napolitano?</testo>
+      <risposta_a>1925</risposta_a>
+      <risposta_b>1936</risposta_b>
+      <risposta_c>1919</risposta_c>
+      <risposta_d>1923</risposta_d>
+    </domanda>
+  <domanda>
+      <testo>Chi diresse Matrix?</testo>
+      <risposta_a>S. Wachowski</risposta_a>
+      <risposta_b>C. Nolan</risposta_b>
+      <risposta_c>T. Burton</risposta_c>
+      <risposta_d>S. Spielberg</risposta_d>
+    </domanda>
+  <domanda>
+      <testo>Quant'è il cubo di 9?</testo>
+      <risposta_a>729</risposta_a>
+      <risposta_b>489</risposta_b>
+      <risposta_c>819</risposta_c>
+      <risposta_d>639</risposta_d>
+    </domanda>
+  <domanda>
+      <testo>Quale di questi gradi è più rilevante?</testo>
+      <risposta_a>Colonnello</risposta_a>
+      <risposta_b>Sergente</risposta_b>
+      <risposta_c>Maresciallo</risposta_c>
+      <risposta_d>Tenente</risposta_d>
+    </domanda>
+  <domanda>
+      <testo>Qual'era il presidente della repubblica italiana nel 1963?</testo>
+      <risposta_a>A. Segni</risposta_a>
+      <risposta_b>G. Gronchi</risposta_b>
+      <risposta_c>G. Saragat</risposta_c>
+      <risposta_d>L. Einaudi</risposta_d>
+    </domanda>
+  <domanda>
+      <testo>Quanto vale l'area di un semicerchio di raggio w?</testo>
+      <risposta_a>½ π w²</risposta_a>
+      <risposta_b>π w²</risposta_b>
+      <risposta_c>¼ π w²</risposta_c>
+      <risposta_d>2 π w²</risposta_d>
+    </domanda>
+  </livello>
+<livello id="16">
+  <domanda>
+      <testo>Dove si trova il golfo di Iskenderun?</testo>
+      <risposta_a>Turchia</risposta_a>
+      <risposta_b>Messico</risposta_b>
+      <risposta_c>Tunisia</risposta_c>
+      <risposta_d>Finlandia</risposta_d>
+    </domanda>
+<domanda>
+      <testo>Quale fu la prima università europea fondata?</testo>
+      <risposta_a>Bologna</risposta_a>
+      <risposta_b>Padova</risposta_b>
+      <risposta_c>Oxford</risposta_c>
+      <risposta_d>Wittemberg</risposta_d>
+    </domanda>
+<domanda>
+      <testo>Di che regione è originario il Barolo?</testo>
+      <risposta_a>Piemonte</risposta_a>
+      <risposta_b>Lombardia</risposta_b>
+      <risposta_c>Liguria</risposta_c>
+      <risposta_d>Emilia Romagna</risposta_d>
+    </domanda>
+<domanda>
+      <testo>Che genere suonano i Pearl Jam?</testo>
+      <risposta_a>Grunge</risposta_a>
+      <risposta_b>Brit Pop</risposta_b>
+      <risposta_c>World Fusion</risposta_c>
+      <risposta_d>Folk</risposta_d>
+    </domanda>
+<domanda>
+      <testo>Quale di questi alimenti è più ricco di Magnesio?</testo>
+      <risposta_a>Frumento</risposta_a>
+      <risposta_b>Peperoni</risposta_b>
+      <risposta_c>Miele</risposta_c>
+      <risposta_d>Panna</risposta_d>
+    </domanda>
+<domanda>
+      <testo>In che anno è stata fondata la casa automobilistica Toyota?</testo>
+      <risposta_a>1937</risposta_a>
+      <risposta_b>1976</risposta_b>
+      <risposta_c>1958</risposta_c>
+      <risposta_d>1921</risposta_d>
+    </domanda>
+<domanda>
+      <testo>Che proprietà deve valere perché un gruppo si dica "abeliano"?</testo>
+      <risposta_a>Commutativa</risposta_a>
+      <risposta_b>Associativa</risposta_b>
+      <risposta_c>Distributiva</risposta_c>
+      <risposta_d>Idempotenza</risposta_d>
+    </domanda>
+<domanda>
+      <testo>Qual è lo stato del Neodimio a circa 28°C?</testo>
+      <risposta_a>Solido</risposta_a>
+      <risposta_b>Liquido</risposta_b>
+      <risposta_c>Plasma</risposta_c>
+      <risposta_d>Gassoso</risposta_d>
+    </domanda>
+<domanda>
+      <testo>Chi era il capitano della squadra di calcio campione del mondo nel 1962?</testo>
+      <risposta_a>De Oliviera Maura</risposta_a>
+      <risposta_b>Deschamps</risposta_b>
+      <risposta_c>Combi</risposta_c>
+      <risposta_d>Passarella</risposta_d>
+    </domanda>
+<domanda>
+      <testo>Chi girò "Pomodori verdi fritti alla fermata del treno"?</testo>
+      <risposta_a>J. Avnet</risposta_a>
+      <risposta_b>M. Scorsese</risposta_b>
+      <risposta_c>K. Reynolds</risposta_c>
+      <risposta_d>T. Scott</risposta_d>
+    </domanda>
+</livello>
+</livelli>
